@@ -116,8 +116,8 @@
 	    "description": "Allow more than 1024 columns in calc",
 	    "type": "feature",
 	    "tdfid": "50916",
-	    "gerritid": "0",
-	    "status": "assigned"
+	    "gerritid": "21620",
+	    "status": "pending"
 	},
 
 	{
