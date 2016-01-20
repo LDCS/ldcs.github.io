@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +11,12 @@
 
     <title>Libre Data Consultancy Services</title>
 
+    <!-- Jquery and datatable plugin for table generation-->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.10/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="js/loadtables.js"></script>
+    
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -26,461 +32,320 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<![endif]-->
 
-</head>
+  </head>
 
-<body>
+  <body>
 
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top">LDCS</a>
-            </li>
-            <li>
-                <a href="#top">Home</a>
-            </li>
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#technologies">Technology</a>
-            </li>
-            <li>
-                <a href="#community">Community</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand">
+          <a href="#top">LDCS</a>
+        </li>
+        <li>
+          <a href="#top">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#technologies">Technology</a>
+        </li>
+        <li>
+          <a href="#community">Community</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
     </nav>
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Libre Data Consultancy Services</h1>
-            <h3>Automate - Innovate - Collaborate</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
-        </div>
+      <div class="text-vertical-center">
+        <h1>Libre Data Consultancy Services</h1>
+        <h3>Automate - Innovate - Collaborate</h3>
+        <br>
+        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+      </div>
     </header>
 
     <!-- About -->
     <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>We are a technology consultancy company head-quartered in Chennai.</h2>
-                    <p class="lead">We specialize in building bespoke IT solutions based on Golang, C++ and Linux. We leverage open-source when available, adapt it when possible, and contribute to it when needed.</p>
-                </div>
-            </div>
-            <!-- /.row -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>We are a technology consultancy company head-quartered in Chennai.</h2>
+            <p class="lead">We specialize in building bespoke IT solutions based on Golang, C++ and Linux. We leverage open-source when available, adapt it when possible, and contribute to it when needed.</p>
+          </div>
         </div>
-        <!-- /.container -->
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
     </section>
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="technologies" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Technologies</h2>
-                    <hr class="small">
-                    <div class="row">
-		      <h4>
-			We specialize in Linux, Go and C++.<br><br>
-		      </h4>
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-10 col-lg-offset-1">
+            <h2>Technologies</h2>
+            <hr class="small">
+            <div class="row">
+	      <h4>
+		We specialize in Linux, Go and C++.<br><br>
+	      </h4>
             </div>
-            <!-- /.row -->
+            <!-- /.row (nested) -->
+          </div>
+          <!-- /.col-lg-10 -->
         </div>
-        <!-- /.container -->
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
     </section>
 
     <!-- Portfolio -->
     <section id="community" class="portfolio">
-        <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Community</h2>
+            <hr class="small">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Community</h2>
-                    <hr class="small">
-                    <div class="row">
-		      <div class="col-lg-4">
-			<h3 align="left">Libreoffice feature additions</h3><br>
-			<p align="left">
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=70625">tdf#70625 Add --cat parameter to make git diffs pretty</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/10623/">(gerrit-link)</a><br><br>
-			  
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=65505">fdo#65505 tdf#57431 Autofilter checkbox for blank cells like in MS Excel</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/13573/">(gerrit-link)</a><br><br>
-			  
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=87972">Enhancement tdf#87972 :  Cannot repeat items labels on a pivot table</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/14504/">(gerrit-link)</a><br><br>
-			  
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=89908">Enhancement tdf#89908 : Add Search field to the autofilter</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/14958/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=90225">Enhancement : tdf#90225 Cannot open compressed csv files from calc</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/15108/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=48456">when searching for a number, consider formatting</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/19420/">(gerrit-link)</a>
-			  <a href="https://wiki.documentfoundation.org/images/a/a6/Searchformatted.png">(Screenshot)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=34449">Ability of deleting borders of cell from adjacent cell</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/19715/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=34094">Allow column and row selections while creating a formula</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/20102/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=91065">Support localization of Properties dialog title</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/21107/">(gerrit-link)</a><br><br>
-			</p>
-			
-			<h5 align="left">Pending review</h5>
-			<p align="left">
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=90460">(optional) enhancement to open xz-compressed csv files from calc</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/15108/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=34873">Show autofilter row count in status bar</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/20134/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=96822">Make cell contents left align when number formatting is text</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/21134/">(gerrit-link)</a><br><br>
-			</p>
-			
-			<h5 align="left">Pending feature additions</h5>
-			<p align="left">
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=50916">Allow more than 1024 columns in calc</a><br><br>
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=42629">SUM, COUNT, COUNT², MAX, MIN,etc. Status bar toggle box for selections - Allow more than one</a><br><br>
-			</p>
-
-		      </div>
-		      
-		      <div class="col-lg-4">
-			<h3 align="left">Libreoffice bug fixes</h3><br>
-			<p align="left">
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=81084">Resolves tdf#81084 tdf#81696 tdf#80874 tdf#81010 : sort causes crash</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/11102/">(gerrit-link)</a><br><br>
-			  
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=81286">tdf#81286 : Instant updates in SUM/AVERAGE in status bar</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/13353/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=84240">Resolves tdf#84240 : Red squiggly underline does not appear instantly</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/14872/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=93392">Fixes the main memory leak in Calc while linking to external html data file with auto update (tdf#93392)</a>
-			  <br><br>
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=88006">Libreoffice calc uses all memory until operating system freezes, when using external references to websites</a>
-			  <br>
-			  <ul class="text-left">
-			    <li><a href="https://gerrit.libreoffice.org/17757">tdf#93392 leak when linking to external html data file with auto update</a></li><br>
-			    <li><a href="https://gerrit.libreoffice.org/17880">fixes a memory leak that appeared in tdf#93392 valgrind trace</a></li><br>
-			    <li><a href="https://gerrit.libreoffice.org/18073">Fixes memleak by allowing SvxFontNameBox_Impl dtor to be called</a></li><br>
-			    <li><a href="https://gerrit.libreoffice.org/18674">fixes memleak : clear self referring VclPtr in MetricBox</a></li><br>
-			    <li><a href="https://gerrit.libreoffice.org/18682">fixes memleak : release references to TextPropertyPanel</a></li><br>
-			    <li><a href="https://gerrit.libreoffice.org/18701">fixes memleak : clear self referring VclPtr in *Field and *Box classes</a></li><br>
-			  </ul>
-			</p>
-			<p align="left">
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=59418">Use both F4 and SHIFT+F4 for absolute reference toggle in calc</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/19401/">(gerrit-link)</a><br><br>
-			  
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=94908">Autofilter ok button is blocked</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/19375/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=93243">replace boost::bind with C++11 lambdas</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/19125/">(gerrit-link)</a><br><br>
-			  
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=80231">sort including formats - ranges with merged column labels</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/19400/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=32834">Improve the precision of MDETERM() calculation</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/19534/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=32834">Unit test for MDETERM()</a>
-			  <a href="https://gerrit.libreoffice.org/19569">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=48456">Remember the state of "Search formatted display string" checkbox</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/19574/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=94848">Crash after changing paragraph style using mouse click (on tab Font)</a>
-			  <a href="http://cgit.freedesktop.org/libreoffice/core/commit/?id=b09dbf6c718ba0b2d920988b510bfd130bc2c3f3&h=libreoffice-5-0-3">(patch-link)</a><br><br>
-			  
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=79983">Fix to make calc sort lists case sensitive</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/19433/">(gerrit-link)</a><br><br>
-
-			  <a href="https://gerrit.libreoffice.org/20274">fix memory leaks on loading and saving an ods file (gerrit-link)</a><br><br>
-
-			  <a href="https://gerrit.libreoffice.org/20561">Fix a memleak in GtkSalFrame::SetIcon (gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=73006">Put results in correct cells after Text to Columns</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/20258/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=96447">Show correct borders in border editor when multimarked</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/20672/"></a><br><br>
-
-			  <a href="https://gerrit.libreoffice.org/20646">Fix memleak of strings allocated in VclGtkClipboard::makeGtkTargetEntry (gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=96523">Correct the behavior when Ctrl key is pressed</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/20836/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=96524">
-			    Do not change view when entire column or row is selected using row/col header and keyboard shortcuts are used to amend the ref selection.</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/20837/">(gerrit-link)</a><br><br>
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=94865">Fixed MENU:Duplicate accelerators in en_US version</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/21125/">(gerrit-link)</a><br><br>
-
-			</p>
-
-			<h5 align="left">Pending review</h5>
-			<p align="left">
-			  <!--
-			  <a href=""></a>
-			  <a href="">(gerrit-link)</a><br><br>-->
-
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=95463">Fixed floating navigator default size, now size is increased</a>
-			  <a href="https://gerrit.libreoffice.org/#/c/21079/">(gerrit-link)</a><br><br>
-
-			</p>
-
-			<h5 align="left">Pending fixes</h5>
-			<p align="left">
-			  <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=93409">Memory leak when setting cell value from a macro: EDITING</a><br><br>
-			</p>
-
-		      </div>
-		      <div class="col-lg-4">
-			<h3 align="left">FOSS projects</h3><br>
-			<p align="left">
-			  <a href="https://github.com/LDCS/sflag">sflag : golang cmdline arg parser using struct syntax</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/blkid">qslinux/blkid : extracts useful info from that command on linux</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/df">qslinux/df : extracts useful info from that command on linux</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/dmidecode">qslinux/dmidecode : extracts useful info from that command on linux</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/etcfstab">qslinux/etcfstab : extracts useful info from that file on linux</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/etchosts">qslinux/etchosts : extracts useful info from that file on linux</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/etcservice">qslinux/etcservice : extracts useful info from the service command on linux</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/etcshadow">qslinux/etcshadow : extracts useful info from that file on linux</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/etcuser">qslinux/etcuser : extracts useful info from that file on linux</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/hp">qslinux/hp : extracts useful info, using the hpaucli program, about all hp disk controllers on a linux system</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/md">qslinux/md : extracts useful info from the mdadm command on linux</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/nmap">qslinux/nmap : extracts mainly up/down status of network devices, as seen from linux.</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/parted">qslinux/parted : extracts useful info from that command on linux</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/scsi">qslinux/scsi : extracts useful info from the lsscsi on linux</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/smartctl">qslinux/smartctl : extracts smartctl information on linux (hp and supermicro are handled better)</a><br><br>
-			  <a href="https://github.com/LDCS/qslinux/tree/master/tgtd">qslinux/tgtd : extracts useful info about iscsi targets provided by the linux server on which it runs.</a><br><br>
-			  <a href="https://github.com/LDCS/qcfg">qcfg : custom config file reader/writer</a><br><br>
-			  <a href="https://github.com/LDCS/genutil">genutil : collects in place the utility functions used in various golang scripts</a><br><br>
-			  <a href="https://github.com/LDCS/gencsv">gencsv : generates a package specific to the hcsv file format described in its input</a><br><br>
-			  <a href="https://github.com/LDCS/qsdata2">qsdata2 : collects information about data storage from various commands on a linux box, and outputs it in csv-formatted file</a><br><br>
-			  <a href="https://github.com/LDCS/qsdataetc">qsdataetc : collects info from various sources on a linux box - mainly etc files, but also some commands, and outputs it into csv-formatted file</a><br><br>
-			  <a href="https://github.com/LDCS/qsdatanet">qsdatanet : runs nmap to detect up/down status of network devices on a configured subnets, and produces csv-formatted file output</a><br><br>
-			  <a href="https://github.com/LDCS/cim">cim : Cim golang package is a generic tcp client/server that can provide arbitrary CLI services</a><br><br>
-			  <a href="https://github.com/LDCS/compresstype">compresstype : Compresstype is a golang package that can be used to detect compression formats and also to convert between some common formats</a><br><br>
-			  <a href="https://github.com/LDCS/goftp">goftp : FTP client golang package</a><br><br>
-			  <a href="https://github.com/LDCS/ftpwatcher">ftpwatcher : ftpwatcher is an FTP utility with scheduling, download checking, post processing and much more</a><br><br>
-			  <a href="https://github.com/LDCS/jobmailer">Jobmailer :  is a golang script that sends mails using a preconfigured sendmail</a><br><br>
-			  <a href="https://github.com/LDCS/monalert">Monalert : is a command line tool that registers an alert to the database for monim server to process</a><br><br>
-			  <a href="https://github.com/LDCS/alertbaseutil">alertbaseutil : Data types and methods supporting the alert database server called alertbase</a><br><br>
-			  <a href="https://github.com/LDCS/alertbase">alertbase : A custom database server for handling alerts</a><br><br>
-			  <a href="https://github.com/LDCS/monim">Monim : is the web backend for the monitoring and operations management tool called Monview</a><br><br>
-			  <a href="https://github.com/LDCS/monview">Monview : is a web based monitoring and operations management tool. This depends on the backend server called Monim</a><br><br>
-			  <a href="https://github.com/LDCS/ezGmail">ezGmail : A golang wrapper for the gmail API</a><br><br>
-			</p>
-		      </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-
-		<div class="col-lg-12 text-center">
-                    <h2>Libreoffice development server</h2>
-                    <hr class="small">
-                    <div class="row">
-		      <div class="col-lg-12 text-left">
-			Libreoffice development server is a GNU/Linux public server we setup to help FOSS enthusiasts who want to contribute but lack the resources to set up their personal Libreoffice Linux Dev environment. We recently presented a talk on this at ILUGC. See the slides for this talk <a href="talks/ILUGC-talk1.odp">here</a>. To request dev account on our LO dev server please email <b>lodevserver@ldcs.co.in</b>.<br><br>
-		      </div>
-		    </div>
-		</div>
-
-		
-		<div class="col-lg-12 text-center">
-                    <h2>Blogs/Books</h2>
-                    <hr class="small">
-                    <div class="row">
-		      <div class="col-lg-12">
-			<a href="https://teamldcs.wordpress.com/">Team LDCS blog</a><br>
-			<a href="https://dennisfrancis.wordpress.com/">LDCS Go/Dart blog</a><br>
-			<a href="http://ldcs.co.in/lobook">LDCS Libreoffice development book (in progress)</a><br>
-		      </div>
-		    </div>
-		</div>
-		
-		<div class="col-lg-12 text-center">
-                    <h2>Talks and Presentations</h2>
-                    <hr class="small">
-                    <div class="row">
-		      <div class="col-lg-12">
-			<a href="talks/ILUGC-talk1.odp">"How we setup Libreoffice development server online" presented at ILUGC meeting on 12 September 2015</a><br>
-			<a href="talks/ILUGC-talk2.odp">"Contributing to LibreOffice" presented at ILUGC meeting on 10 October 2015</a><br>
-			<a href="talks/ILUGC-talk3-final.odp">"Contributing to LibreOffice - Talk 3" presented at ILUGC meeting on 14 November 2015</a><br>
-			<a href="talks/ILUGC-talk4-final.odp">"Contributing to LibreOffice - Talk 4" presented at ILUGC meeting on 19 December 2015</a><br>
-		      </div>
-		    </div>
-		</div>
-		
+	      <h3 align="left">Libreoffice contributions</h3><br>
+	      <table id="locontrib" class="display text-left" width="100%" cellspacing="0">
+		<thead>
+		  <tr>
+		    <th>Date of start of work</th>
+		    <th>Description</th>
+		    <th>Type</th>
+		    <th>TDF link</th>
+		    <th>Gerrit link</th>
+		    <th>Status</th>
+		  </tr>
+		</thead>
+		<tfoot>
+		  <tr>
+		    <th>Date of start of work</th>
+		    <th>Description</th>
+		    <th>Type</th>
+		    <th>TDF link</th>
+		    <th>Gerrit link</th>
+		    <th>Status</th>
+		  </tr>
+		</tfoot>
+	      </table>
+	      <br><br>
+	      <h3 align="left">FOSS projects</h3><br>
+	      <table id="fosscontrib" class="display text-left" width="100%" cellspacing="0">
+		<thead>
+		  <tr>
+		    <th>Date of open-sourcing</th>
+		    <th>Name</th>
+		    <th>Description</th>
+		    <th>Github link</th>
+		  </tr>
+		</thead>
+		<tfoot>
+		  <tr>
+		    <th>Date of open-sourcing</th>
+		    <th>Name</th>
+		    <th>Description</th>
+		    <th>Github link</th>
+		  </tr>
+		</tfoot>
+	      </table>
             </div>
-            <!-- /.row -->
+            <!-- /.row (nested) -->
+          </div>
+          <!-- /.col-lg-10 -->
+
+	  <div class="col-lg-12 text-center">
+            <h2>Libreoffice development server</h2>
+            <hr class="small">
+            <div class="row">
+	      <div class="col-lg-12 text-left">
+		Libreoffice development server is a GNU/Linux public server we setup to help FOSS enthusiasts who want to contribute but lack the resources to set up their personal Libreoffice Linux Dev environment. We recently presented a talk on this at ILUGC. See the slides for this talk <a href="talks/ILUGC-talk1.odp">here</a>. To request dev account on our LO dev server please email <b>lodevserver@ldcs.co.in</b>.<br><br>
+	      </div>
+	    </div>
+	  </div>
+
+	  
+	  <div class="col-lg-12 text-center">
+            <h2>Blogs/Books</h2>
+            <hr class="small">
+            <div class="row">
+	      <div class="col-lg-12">
+		<a href="https://teamldcs.wordpress.com/">Team LDCS blog</a><br>
+		<a href="https://dennisfrancis.wordpress.com/">LDCS Go/Dart blog</a><br>
+		<a href="http://ldcs.co.in/lobook">LDCS Libreoffice development book (in progress)</a><br>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  <div class="col-lg-12 text-center">
+            <h2>Talks and Presentations</h2>
+            <hr class="small">
+            <div class="row">
+	      <div class="col-lg-12">
+		<a href="talks/ILUGC-talk1.odp">"How we setup Libreoffice development server online" presented at ILUGC meeting on 12 September 2015</a><br>
+		<a href="talks/ILUGC-talk2.odp">"Contributing to LibreOffice" presented at ILUGC meeting on 10 October 2015</a><br>
+		<a href="talks/ILUGC-talk3-final.odp">"Contributing to LibreOffice - Talk 3" presented at ILUGC meeting on 14 November 2015</a><br>
+		<a href="talks/ILUGC-talk4-final.odp">"Contributing to LibreOffice - Talk 4" presented at ILUGC meeting on 19 December 2015</a><br>
+	      </div>
+	    </div>
+	  </div>
+	  
         </div>
-        <!-- /.container -->
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
     </section>
 
     <!-- Call to Action -->
     <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <a href="#" class="btn btn-lg btn-dark">Go to top</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <a href="#" class="btn btn-lg btn-dark">Go to top</a>
+          </div>
         </div>
+      </div>
     </aside>
 
     <section id="recruitment" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Recruitment</h2>
-                    <hr class="small">
-                    <!--<div class="row">-->
-		    <br>
-		    <div class="col-lg-10 col-lg-offset-1 text-left">
-		      <br><br>
-		      <h3>Internship</h3>
-		      <p style="text-align:justify;">
-			We are a technology consultancy company head-quartered in Chennai. We have a few internship opportunities
-			for recent engineering graduates. Current students are also welcome if their 
-			teachers/department do not object to them earning some fee and spending the time.
-			The candidates must have demonstrable experience on GNU/Linux and have
-			solid programming expertise in preferably C/C++. Experience in Golang would be an added advantage.
-			The candidates must have good understanding of software development
-			fundamentals.<br><br>
-			The selected candidates would be extremely hard-working and driven to excel.
-			They would be able to work well with other team members and will have every
-			opportunity to closely interact and contribute to the open source community.
-			The projects they work on will be chosen by matching the candidate skills
-			with company needs.<br><br>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h2>Recruitment</h2>
+            <hr class="small">
+            <!--<div class="row">-->
+	    <br>
+	    <div class="col-lg-10 col-lg-offset-1 text-left">
+	      <br><br>
+	      <h3>Internship</h3>
+	      <p style="text-align:justify;">
+		We are a technology consultancy company head-quartered in Chennai. We have a few internship opportunities
+		for recent engineering graduates. Current students are also welcome if their 
+		teachers/department do not object to them earning some fee and spending the time.
+		The candidates must have demonstrable experience on GNU/Linux and have
+		solid programming expertise in preferably C/C++. Experience in Golang would be an added advantage.
+		The candidates must have good understanding of software development
+		fundamentals.<br><br>
+		The selected candidates would be extremely hard-working and driven to excel.
+		They would be able to work well with other team members and will have every
+		opportunity to closely interact and contribute to the open source community.
+		The projects they work on will be chosen by matching the candidate skills
+		with company needs.<br><br>
 
-			The internship projects may lead to full-time consulting positions
-			depending on company growth need and internship success.
-			<br><br>
+		The internship projects may lead to full-time consulting positions
+		depending on company growth need and internship success.
+		<br><br>
 
-			If you are interested in applying for the position described above, please
-			email your resume to <b>interns@ldcs.co.in</b>, with a
-			subject line LDCS-firstname-lastname.   If included, links to your FOSS work is a
-			superior gauge of technical and team ability.
-		      </p>
-		      <div>
-                    <!--</div>-->
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
+		If you are interested in applying for the position described above, please
+		email your resume to <b>interns@ldcs.co.in</b>, with a
+		subject line LDCS-firstname-lastname.   If included, links to your FOSS work is a
+		superior gauge of technical and team ability.
+	      </p>
+	      <div>
+                <!--</div>-->
+                <!-- /.row (nested) -->
+              </div>
+              <!-- /.col-lg-10 -->
             </div>
             <!-- /.row -->
-        </div>
-        <!-- /.container -->
+          </div>
+          <!-- /.container -->
     </section>
 
 
     <!-- Map -->
     <section id="contact" class="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0271296498045!2d80.25065839999999!3d12.970115799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d6b096cd415%3A0xad7846d87bf6094d!2sTVH+Agnitio+IT+park%2C+141%2C+Old+Mahabalipuram+Rd%2C+Perungudi%2C+Chennai%2C+Tamil+Nadu+600078!5e0!3m2!1sen!2sin!4v1442388360696" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <br />
-        <small>
-            <a href="https://goo.gl/maps/XNcwW"></a>
-        </small>
-        </iframe>
-    </section>
+      <br />
+      <small>
+        <a href="https://goo.gl/maps/XNcwW"></a>
+      </small>
+</iframe>
+</section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Libre Data Consultancy Services (P) Ltd</strong>
-                    </h4>
-		    <p>Level 2, TVH Aginitio IT Park<br>Old Mahabalipuram Rd<br>Kandanchavadi, Perungudi<br>Near Rajiv Gandhi Salai<br>Chennai, 600 096</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (+91) 9840547623</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:team@ldcs.co.in">team@ldcs.co.in</a>
-                        </li>
-                    </ul>
-                    <br>
-		    <!--
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-		    -->
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Libre Data Consultancy Services (P) Ltd. 2015</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <h4><strong>Libre Data Consultancy Services (P) Ltd</strong>
+        </h4>
+	<p>Level 2, TVH Aginitio IT Park<br>Old Mahabalipuram Rd<br>Kandanchavadi, Perungudi<br>Near Rajiv Gandhi Salai<br>Chennai, 600 096</p>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-phone fa-fw"></i> (+91) 9840547623</li>
+          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:team@ldcs.co.in">team@ldcs.co.in</a>
+          </li>
+        </ul>
+        <br>
+	<!--
+            <ul class="list-inline">
+              <li>
+                <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+              </li>
+            </ul>
+	    -->
+        <hr class="small">
+        <p class="text-muted">Copyright &copy; Libre Data Consultancy Services (P) Ltd. 2015</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<!-- jQuery -->
+<!--<script src="js/jquery.js"></script>-->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
+<!-- Custom Theme JavaScript -->
+<script>
+  // Closes the sidebar menu
+  $("#menu-close").click(function(e) {
+  e.preventDefault();
+  $("#sidebar-wrapper").toggleClass("active");
+  });
 
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
+  // Opens the sidebar menu
+  $("#menu-toggle").click(function(e) {
+  e.preventDefault();
+  $("#sidebar-wrapper").toggleClass("active");
+  });
 
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+  // Scrolls to the selected menu item on the page
+  $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
+  var target = $(this.hash);
+  target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+  if (target.length) {
+  $('html,body').animate({
+  scrollTop: target.offset().top
+  }, 1000);
+  return false;
+  }
+  }
+  });
+  });
+</script>
 
 </body>
 

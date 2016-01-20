@@ -1,0 +1,236 @@
+{
+    "data": [
+	
+	{
+	    "date": "20141204",
+	    "name": "sflag",
+	    "description": "golang cmdline arg parser using struct syntax",
+	    "ghname": "sflag"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "blkid",
+	    "description": "extracts useful info from blkid command on linux",
+	    "ghname": "qslinux/tree/master/blkid"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "df",
+	    "description": "extracts useful info from df command on linux",
+	    "ghname": "qslinux/tree/master/df"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "dmidecode",
+	    "description": "extracts useful info from dmidecode command on linux",
+	    "ghname": "qslinux/tree/master/dmidecode"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "etcfstab",
+	    "description": "extracts useful info from /etc/fstab file on linux",
+	    "ghname": "qslinux/tree/master/etcfstab"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "etchosts",
+	    "description": "extracts useful info from /etc/hosts file on linux",
+	    "ghname": "qslinux/tree/master/etchosts"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "etcservice",
+	    "description": "extracts useful info from service command on linux",
+	    "ghname": "qslinux/tree/master/etcservice"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "etcshadow",
+	    "description": "extracts useful info from /etc/shadow file on linux",
+	    "ghname": "qslinux/tree/master/etcshadow"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "etcuser",
+	    "description": "extracts useful info from /etc/passwd file on linux",
+	    "ghname": "qslinux/tree/master/etcuser"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "hp",
+	    "description": "extracts useful info, using the hpaucli program, about all hp disk controllers on a linux system",
+	    "ghname": "qslinux/tree/master/hp"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "md",
+	    "description": "extracts useful info from the mdadm command on linux",
+	    "ghname": "qslinux/tree/master/md"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "nmap",
+	    "description": "extracts mainly up/down status of network devices, as seen from linux",
+	    "ghname": "qslinux/tree/master/nmap"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "parted",
+	    "description": "extracts useful info from parted command on linux",
+	    "ghname": "qslinux/tree/master/parted"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "scsi",
+	    "description": "extracts useful info from lsscsi command on linux",
+	    "ghname": "qslinux/tree/master/scsi"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "smartctl",
+	    "description": "extracts smartctl information on linux (hp and supermicro are handled better)",
+	    "ghname": "qslinux/tree/master/smartctl"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "tgtd",
+	    "description": "extracts useful info about iscsi targets provided by the linux server on which it runs",
+	    "ghname": "qslinux/tree/master/tgtd"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "qcfg",
+	    "description": "custom config file reader/writer",
+	    "ghname": "qcfg"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "genutil",
+	    "description": "collects in place the utility functions used in various golang scripts",
+	    "ghname": "genutil"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "gencsv",
+	    "description": "generates a package specific to the hcsv file format described in its input",
+	    "ghname": "gencsv"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "qsdata2",
+	    "description": "collects information about data storage from various commands on a linux box, and outputs it in csv-formatted file",
+	    "ghname": "qsdata2"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "qsdataetc",
+	    "description": "collects info from various sources on a linux box - mainly etc files, but also some commands, and outputs it into csv-formatted file",
+	    "ghname": "qsdataetc"
+	},
+
+	{
+	    "date": "20150411",
+	    "name": "qsdatanet",
+	    "description": "runs nmap to detect up/down status of network devices on a configured subnets, and produces csv-formatted file output",
+	    "ghname": "qsdatanet"
+	},
+
+	{
+	    "date": "20151017",
+	    "name": "cim",
+	    "description": "Cim golang package is a generic tcp client/server that can provide arbitrary CLI services",
+	    "ghname": "cim"
+	},
+
+	{
+	    "date": "20151017",
+	    "name": "compresstype",
+	    "description": "Compresstype is a golang package that can be used to detect compression formats and also to convert between some common formats",
+	    "ghname": "compresstype"
+	},
+
+	{
+	    "date": "20151017",
+	    "name": "goftp",
+	    "description": "FTP client golang package",
+	    "ghname": "goftp"
+	},
+
+	{
+	    "date": "20151017",
+	    "name": "ftpwatcher",
+	    "description": "ftpwatcher is an FTP utility with scheduling, download checking, post processing and much more",
+	    "ghname": "ftpwatcher"
+	},
+
+	{
+	    "date": "20151029",
+	    "name": "jobmailer",
+	    "description": "Jobmailer is a golang script that sends mails using a preconfigured sendmail",
+	    "ghname": "jobmailer"
+	},
+
+	{
+	    "date": "20151025",
+	    "name": "monalert",
+	    "description": "Monalert is a command line tool that registers an alert to the database for monim server to process",
+	    "ghname": "monalert"
+	},
+
+	{
+	    "date": "20151030",
+	    "name": "alertbaseutil",
+	    "description": "Data types and methods supporting the alert database server called alertbase",
+	    "ghname": "alertbaseutil"
+	},
+
+	{
+	    "date": "20151030",
+	    "name": "alertbase",
+	    "description": "A custom database server for handling alerts",
+	    "ghname": "alertbase"
+	},
+
+	{
+	    "date": "20151030",
+	    "name": "monim",
+	    "description": "Monim is the web backend for the monitoring and operations management tool called Monview",
+	    "ghname": "monim"
+	},
+
+	{
+	    "date": "20151030",
+	    "name": "monview",
+	    "description": "Monview is a web based monitoring and operations management tool. This depends on the backend server called Monim",
+	    "ghname": "monview"
+	},
+
+	{
+	    "date": "20151217",
+	    "name": "ezGmail",
+	    "description": "ezGmail is a golang wrapper for the gmail API",
+	    "ghname": "ezGmail"
+	}
+	
+    ]
+}

@@ -1,0 +1,386 @@
+{
+    "data": [
+	
+	{
+	    "date": "20140730",
+	    "description": "Add --cat parameter to make git diffs pretty",
+	    "type": "feature",
+	    "tdfid": "70625",
+	    "gerritid": "10623",
+	    "status": "accepted"
+	},
+
+
+	{
+	    "date": "20141221",
+	    "description": "Autofilter checkbox for blank cells like in MS Excel",
+	    "type": "feature",
+	    "tdfid": "65505",
+	    "gerritid": "13573",
+	    "status": "accepted"
+	},
+
+	
+	{
+	    "date": "20150216",
+	    "description": "Make items labels on a pivot table repeatable optionally",
+	    "type": "feature",
+	    "tdfid": "87972",
+	    "gerritid": "14504",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20150323",
+	    "description": "Add Search field to the autofilter",
+	    "type": "feature",
+	    "tdfid": "89908",
+	    "gerritid": "14958",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20150401",
+	    "description": "Allow open compressed csv files directly from calc",
+	    "type": "feature",
+	    "tdfid": "90225",
+	    "gerritid": "15108",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151017",
+	    "description": "When searching for a number, consider formatting",
+	    "type": "feature",
+	    "tdfid": "48456",
+	    "gerritid": "19420",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151101",
+	    "description": "Ability of deleting borders of cell from adjacent cell",
+	    "type": "feature",
+	    "tdfid": "34449",
+	    "gerritid": "19715",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151121",
+	    "description": "Allow column and row selections while creating a formula",
+	    "type": "feature",
+	    "tdfid": "34094",
+	    "gerritid": "20102",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20160105",
+	    "description": "Support localization of Properties dialog title",
+	    "type": "feature",
+	    "tdfid": "91065",
+	    "gerritid": "21107",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20150401",
+	    "description": "(optional) enhancement to open xz-compressed csv files from calc",
+	    "type": "feature",
+	    "tdfid": "90460",
+	    "gerritid": "15108",
+	    "status": "pending"
+	},
+
+	{
+	    "date": "20151124",
+	    "description": "Show autofilter row count in status bar",
+	    "type": "feature",
+	    "tdfid": "34873",
+	    "gerritid": "20134",
+	    "status": "pending"
+	},
+
+	{
+	    "date": "20160105",
+	    "description": "Make cell contents left align when number formatting is text",
+	    "type": "feature",
+	    "tdfid": "96822",
+	    "gerritid": "21134",
+	    "status": "pending"
+	},
+
+	{
+	    "date": "20160120",
+	    "description": "Allow more than 1024 columns in calc",
+	    "type": "feature",
+	    "tdfid": "50916",
+	    "gerritid": "0",
+	    "status": "assigned"
+	},
+
+	{
+	    "date": "20151015",
+	    "description": "SUM, COUNT, COUNT², MAX, MIN,etc. Status bar toggle box for selections - Allow more than one",
+	    "type": "feature",
+	    "tdfid": "42629",
+	    "gerritid": "0",
+	    "status": "assigned"
+	},
+
+
+	{
+	    "date": "20140825",
+	    "description": "Fix crash while sorting in calc",
+	    "type": "bugfix",
+	    "tdfid": "81084",
+	    "gerritid": "11102",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20141208",
+	    "description": "Instant updates in SUM/AVERAGE in status bar",
+	    "type": "bugfix",
+	    "tdfid": "81286",
+	    "gerritid": "13353",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20150315",
+	    "description": "Make red squiggly underline appear instantly",
+	    "type": "bugfix",
+	    "tdfid": "84240",
+	    "gerritid": "14872",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20150814",
+	    "description": "Fix the main memory leaks in Calc while linking to external html data file with auto update",
+	    "type": "bugfix",
+	    "tdfid": "93392",
+	    "gerritid": "17757",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20150820",
+	    "description": "Fix a memory leak that appeared in tdf#93392 valgrind trace",
+	    "type": "bugfix",
+	    "tdfid": "93392",
+	    "gerritid": "17880",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20150828",
+	    "description": "Fix memleak by allowing SvxFontNameBox_Impl dtor to be called",
+	    "type": "bugfix",
+	    "tdfid": "93392",
+	    "gerritid": "18073",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20150918",
+	    "description": "Fix memleak : clear self referring VclPtr in MetricBox",
+	    "type": "bugfix",
+	    "tdfid": "93392",
+	    "gerritid": "18674",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20150918",
+	    "description": "Fix memleak : release references to TextPropertyPanel",
+	    "type": "bugfix",
+	    "tdfid": "93392",
+	    "gerritid": "18682",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20150918",
+	    "description": "Fix memleak : clear self referring VclPtr in *Field and *Box classes",
+	    "type": "bugfix",
+	    "tdfid": "93392",
+	    "gerritid": "18701",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151016",
+	    "description": "Use both F4 and SHIFT+F4 for absolute reference toggle in calc",
+	    "type": "bugfix",
+	    "tdfid": "59418",
+	    "gerritid": "19401",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151014",
+	    "description": "Unlock autofilter ok button",
+	    "type": "bugfix",
+	    "tdfid": "94908",
+	    "gerritid": "19375",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151004",
+	    "description": "replace boost::bind with C++11 lambdas",
+	    "type": "bugfix",
+	    "tdfid": "93243",
+	    "gerritid": "19125",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151015",
+	    "description": "sort including formats - ranges with merged column labels",
+	    "type": "bugfix",
+	    "tdfid": "80231",
+	    "gerritid": "19400",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151023",
+	    "description": "Improve the precision of MDETERM() calculation",
+	    "type": "bugfix",
+	    "tdfid": "32834",
+	    "gerritid": "19534",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151024",
+	    "description": "Unit test for MDETERM()",
+	    "type": "bugfix",
+	    "tdfid": "32834",
+	    "gerritid": "19569",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151024",
+	    "description": "Remember the state of *Search formatted display string* checkbox",
+	    "type": "bugfix",
+	    "tdfid": "48456",
+	    "gerritid": "19574",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20150918",
+	    "description": "Fix crash after changing paragraph style using mouse click (on tab Font)",
+	    "type": "bugfix",
+	    "tdfid": "94848",
+	    "gerritid": "18674",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151018",
+	    "description": "Fix to make calc sort lists case sensitive",
+	    "type": "bugfix",
+	    "tdfid": "79983",
+	    "gerritid": "19433",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151130",
+	    "description": "Fix memory leaks on loading and saving an ods file",
+	    "type": "bugfix",
+	    "tdfid": "0",
+	    "gerritid": "20274",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151210",
+	    "description": "Fix a memleak in GtkSalFrame::SetIcon",
+	    "type": "bugfix",
+	    "tdfid": "0",
+	    "gerritid": "20561",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151128",
+	    "description": "Put results in correct cells after Text to Columns",
+	    "type": "bugfix",
+	    "tdfid": "73006",
+	    "gerritid": "20258",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151212",
+	    "description": "Show correct borders in border editor when multimarked",
+	    "type": "bugfix",
+	    "tdfid": "96447",
+	    "gerritid": "20672",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151211",
+	    "description": "Fix memleak of strings allocated in VclGtkClipboard::makeGtkTargetEntry",
+	    "type": "bugfix",
+	    "tdfid": "0",
+	    "gerritid": "20646",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151220",
+	    "description": "Correct the behavior when Ctrl key is pressed",
+	    "type": "bugfix",
+	    "tdfid": "96523",
+	    "gerritid": "20836",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20151220",
+	    "description": "Do not change view when entire column or row is selected...",
+	    "type": "bugfix",
+	    "tdfid": "96524",
+	    "gerritid": "20837",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20160105",
+	    "description": "Fixed MENU:Duplicate accelerators in en_US version",
+	    "type": "bugfix",
+	    "tdfid": "94865",
+	    "gerritid": "21125",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20160104",
+	    "description": "Fixed floating navigator default size, now size is increased",
+	    "type": "bugfix",
+	    "tdfid": "95463",
+	    "gerritid": "21079",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20160118",
+	    "description": "Scroll view to the ref boundary...",
+	    "type": "bugfix",
+	    "tdfid": "97084",
+	    "gerritid": "21559",
+	    "status": "pending"
+	}
+
+    ]
+}
