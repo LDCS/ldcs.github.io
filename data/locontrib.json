@@ -108,7 +108,7 @@
 	    "type": "feature",
 	    "tdfid": "96822",
 	    "gerritid": "21134",
-	    "status": "pending"
+	    "status": "accepted"
 	},
 
 	{
@@ -407,6 +407,16 @@
 	    "tdfid": "89140",
 	    "gerritid": "21665",
 	    "status": "pending"
+	},
+
+	{
+	    "date": "20160120",
+	    "description": "Editing- Crashs using \"Insert Column Left\" for large Documents",
+	    "type": "bugfix",
+	    "tdfid": "96910",
+	    "gerritid": "21661",
+	    "status": "pending"
 	}
+	
     ]
 }
