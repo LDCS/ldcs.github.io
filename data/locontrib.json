@@ -380,6 +380,15 @@
 	    "tdfid": "97084",
 	    "gerritid": "21559",
 	    "status": "pending"
+	},
+
+        {
+	    "date": "20160119",
+	    "description": "Creating a formula using Ctrl can incorrectly append a comma at the beginning of the function argument",
+	    "type": "bugfix",
+	    "tdfid": "93936",
+	    "gerritid": "21667",
+	    "status": "pending"
 	}
 
     ]
