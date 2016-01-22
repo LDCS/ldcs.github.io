@@ -389,7 +389,24 @@
 	    "tdfid": "93936",
 	    "gerritid": "21667",
 	    "status": "pending"
-	}
+	},
+	
+	{
+	    "date": "20160111",
+	    "description": "Crash when delete a large part of a column with shift cells left",
+	    "type": "bugfix",
+	    "tdfid": "90606",
+	    "gerritid": "21389",
+	    "status": "accepted"
+	},
 
+	{
+	    "date": "20160119",
+	    "description": "Calc row paste doesn't keep row height",
+	    "type": "bugfix",
+	    "tdfid": "89140",
+	    "gerritid": "21665",
+	    "status": "pending"
+	}
     ]
 }
