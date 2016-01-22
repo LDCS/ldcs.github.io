@@ -416,7 +416,16 @@
 	    "tdfid": "96910",
 	    "gerritid": "21661",
 	    "status": "pending"
+	},
+
+	{
+	    "date": "20160122",
+	    "description": "Better way to show autofilter count",
+	    "type": "feature",
+	    "tdfid": "34873",
+	    "gerritid": "21720",
+	    "status": "pending"
 	}
-	
+
     ]
 }
