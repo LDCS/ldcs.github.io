@@ -113,7 +113,7 @@
 
 	{
 	    "date": "20160120",
-	    "description": "Allow more than 1024 columns in calc",
+	    "description": "Allow more than 1024 columns in calc - patch#1",
 	    "type": "feature",
 	    "tdfid": "50916",
 	    "gerritid": "21620",
