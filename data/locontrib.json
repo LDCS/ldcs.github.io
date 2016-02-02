@@ -419,6 +419,16 @@
 	},
 
 	{
+	    "date": "20160128",
+	    "description": "Sorting Causes LibO to crash - applies to some files",
+	    "type": "bugfix",
+	    "tdfid": "97215",
+	    "gerritid": "N.A.",
+	    "status": "Pending"
+	},
+
+
+	{
 	    "date": "20160122",
 	    "description": "Better way to show autofilter count",
 	    "type": "feature",
