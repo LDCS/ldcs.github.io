@@ -443,6 +443,15 @@
 	    "tdfid": "65206",
 	    "gerritid": "0",
 	    "status": "assigned"
+	},
+
+	{
+	    "date": "20160201",
+	    "description": "Named cell ranges corruption",
+	    "type": "bugfix",
+	    "tdfid": "81629",
+	    "gerritid": "22029",
+	    "status": "pending"
 	}
 
     ]
