@@ -125,8 +125,8 @@
 	    "description": "SUM, COUNT, COUNT², MAX, MIN,etc. Status bar toggle box for selections - Allow more than one",
 	    "type": "feature",
 	    "tdfid": "42629",
-	    "gerritid": "0",
-	    "status": "assigned"
+	    "gerritid": "22060",
+	    "status": "pending"
 	},
 
 
