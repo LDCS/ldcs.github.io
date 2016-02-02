@@ -379,7 +379,7 @@
 	    "type": "bugfix",
 	    "tdfid": "97084",
 	    "gerritid": "21559",
-	    "status": "pending"
+	    "status": "accepted"
 	},
 
         {
@@ -424,6 +424,33 @@
 	    "type": "feature",
 	    "tdfid": "34873",
 	    "gerritid": "21720",
+	    "status": "pending"
+	},
+
+	{
+	    "date": "20160130",
+	    "description": "Allow focus change using mouse in autofilter popup",
+	    "type": "bugfix",
+	    "tdfid": "97344",
+	    "gerritid": "21922",
+	    "status": "pending"
+	},
+
+	{
+	    "date": "20160201",
+	    "description": "Allow more than 32 Highlighted (colored) cells in formula",
+	    "type": "bugfix",
+	    "tdfid": "65206",
+	    "gerritid": "0",
+	    "status": "assigned"
+	},
+
+	{
+	    "date": "20160201",
+	    "description": "Named cell ranges corruption",
+	    "type": "bugfix",
+	    "tdfid": "81629",
+	    "gerritid": "22029",
 	    "status": "pending"
 	}
 
