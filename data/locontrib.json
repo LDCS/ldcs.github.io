@@ -406,7 +406,7 @@
 	    "type": "bugfix",
 	    "tdfid": "89140",
 	    "gerritid": "21665",
-	    "status": "pending"
+	    "status": "accepted"
 	},
 
 	{
@@ -455,14 +455,6 @@
 	    "status": "assigned"
 	},
 
-	{
-	    "date": "20160201",
-	    "description": "Named cell ranges corruption",
-	    "type": "bugfix",
-	    "tdfid": "81629",
-	    "gerritid": "22029",
-	    "status": "pending"
-	},
 	{
 	    "date": "20160125",
 	    "description": "EDITING : Calc doesn't show colored borders on referenced cells when editing formula",
