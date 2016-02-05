@@ -415,7 +415,7 @@
 	    "type": "bugfix",
 	    "tdfid": "96910",
 	    "gerritid": "21661",
-	    "status": "Accepted"
+	    "status": "accepted"
 	},
 
 	{
@@ -424,7 +424,7 @@
 	    "type": "bugfix",
 	    "tdfid": "97215",
 	    "gerritid": "0",
-	    "status": "Assigned"
+	    "status": "assigned"
 	},
 
 
@@ -434,7 +434,7 @@
 	    "type": "feature",
 	    "tdfid": "34873",
 	    "gerritid": "21720",
-	    "status": "pending"
+	    "status": "accepted"
 	},
 
 	{
