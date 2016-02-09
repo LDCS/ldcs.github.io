@@ -117,7 +117,7 @@
 	    "type": "feature",
 	    "tdfid": "50916",
 	    "gerritid": "21620",
-	    "status": "pending"
+	    "status": "accepted"
 	},
 
 	{
@@ -125,8 +125,8 @@
 	    "description": "SUM, COUNT, COUNT², MAX, MIN,etc. Status bar toggle box for selections - Allow more than one",
 	    "type": "feature",
 	    "tdfid": "42629",
-	    "gerritid": "0",
-	    "status": "assigned"
+	    "gerritid": "22060",
+	    "status": "pending"
 	},
 
 
@@ -406,7 +406,7 @@
 	    "type": "bugfix",
 	    "tdfid": "89140",
 	    "gerritid": "21665",
-	    "status": "pending"
+	    "status": "accepted"
 	},
 
 	{
@@ -415,7 +415,7 @@
 	    "type": "bugfix",
 	    "tdfid": "96910",
 	    "gerritid": "21661",
-	    "status": "Accepted"
+	    "status": "accepted"
 	},
 
 	{
@@ -423,8 +423,8 @@
 	    "description": "Sorting Causes LibO to crash - applies to some files",
 	    "type": "bugfix",
 	    "tdfid": "97215",
-	    "gerritid": "N.A.",
-	    "status": "Assigned"
+	    "gerritid": "0",
+	    "status": "assigned"
 	},
 
 
@@ -434,7 +434,7 @@
 	    "type": "feature",
 	    "tdfid": "34873",
 	    "gerritid": "21720",
-	    "status": "pending"
+	    "status": "accepted"
 	},
 
 	{
@@ -455,14 +455,6 @@
 	    "status": "accepted"
 	},
 
-	{
-	    "date": "20160201",
-	    "description": "Named cell ranges corruption",
-	    "type": "bugfix",
-	    "tdfid": "81629",
-	    "gerritid": "22029",
-	    "status": "pending"
-	},
 	{
 	    "date": "20160125",
 	    "description": "EDITING : Calc doesn't show colored borders on referenced cells when editing formula",
