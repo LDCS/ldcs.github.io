@@ -462,6 +462,15 @@
 	    "tdfid": "38304",
 	    "gerritid": "22023",
 	    "status": "pending"
+	},
+	
+	{
+	    "date": "20160203",
+	    "description": "Cells keep date autoformat incorrectly",
+	    "type": "bugfix",
+	    "tdfid": "36175",
+	    "gerritid": "",
+	    "status": "assigned"
 	}
 
     ]
