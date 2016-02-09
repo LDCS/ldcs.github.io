@@ -388,7 +388,7 @@
 	    "type": "bugfix",
 	    "tdfid": "93936",
 	    "gerritid": "21667",
-	    "status": "pending"
+	    "status": "accepted"
 	},
 	
 	{
@@ -451,8 +451,8 @@
 	    "description": "Allow more than 32 Highlighted (colored) cells in formula",
 	    "type": "bugfix",
 	    "tdfid": "65206",
-	    "gerritid": "0",
-	    "status": "assigned"
+	    "gerritid": "22094",
+	    "status": "accepted"
 	},
 
 	{
