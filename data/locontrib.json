@@ -479,8 +479,17 @@
 	    "type": "perf",
 	    "tdfid": "50916",
 	    "gerritid": "22163",
-	    "status": "pending"
-	}
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20160208",
+	    "description": "Unit tests for the refactored ScMarkData",
+	    "type": "testcase",
+	    "tdfid": "50916",
+	    "gerritid": "0",
+	    "status": "assigned"
+	},
 
     ]
 }
