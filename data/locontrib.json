@@ -476,10 +476,19 @@
 	{
 	    "date": "20160208",
 	    "description": "Unit tests for the refactored ScMarkData",
-	    "type": "testcase",
+	    "type": "unittest",
 	    "tdfid": "50916",
 	    "gerritid": "0",
 	    "status": "assigned"
+	},
+
+	{
+	    "data": "20160212",
+	    "description": "Create notes drawing objects only once on sheet copy",
+	    "type": "bugfix",
+	    "tdfid": "94561",
+	    "gerritid": "22331",
+	    "status": "pending"
 	}
     ]
 }
