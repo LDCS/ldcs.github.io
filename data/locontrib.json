@@ -489,6 +489,15 @@
 	    "tdfid": "94561",
 	    "gerritid": "22331",
 	    "status": "pending"
+	},
+	
+	{
+	    "date": "20160227",
+	    "description": "Toggle reference and show data sources shortcuts",
+	    "type": "feature",
+	    "tdfid": "97906",
+	    "gerritid": "22728",
+	    "status": "accepted"
 	}
     ]
 }
