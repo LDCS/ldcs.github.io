@@ -423,8 +423,8 @@
 	    "description": "Sorting Causes LibO to crash - applies to some files",
 	    "type": "bugfix",
 	    "tdfid": "97215",
-	    "gerritid": "0",
-	    "status": "assigned"
+	    "gerritid": "22607",
+	    "status": "accepted"
 	},
 
 
@@ -462,7 +462,52 @@
 	    "tdfid": "38304",
 	    "gerritid": "22023",
 	    "status": "pending"
-	}
+	},
+	
+	{
+	    "date": "20160206",
+	    "description": "Refactor ScMarkData for 16K cols",
+	    "type": "perf",
+	    "tdfid": "50916",
+	    "gerritid": "22163",
+	    "status": "accepted"
+	},
 
+	{
+	    "date": "20160208",
+	    "description": "Unit tests for the refactored ScMarkData",
+	    "type": "unittest",
+	    "tdfid": "50916",
+	    "gerritid": "22849",
+	    "status": "pending"
+	},
+
+	{
+	    "date": "20160212",
+	    "description": "Create notes drawing objects only once on sheet copy",
+	    "type": "bugfix",
+	    "tdfid": "94561",
+	    "gerritid": "22331",
+	    "status": "pending"
+	},
+	
+	{
+	    "date": "20160227",
+	    "description": "Toggle reference and show data sources shortcuts",
+	    "type": "feature",
+	    "tdfid": "97906",
+	    "gerritid": "22728",
+	    "status": "accepted"
+	},
+
+	{
+	    "date": "20160325",
+	    "description": "Pasting a whole row with data crashes",
+	    "type": "bugfix",
+	    "tdfid": "92963",
+	    "gerritid": "23688",
+	    "status": "accepted"
+	}
+	
     ]
 }
