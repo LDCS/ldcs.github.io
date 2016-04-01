@@ -458,7 +458,7 @@
 	{
 	    "date": "20160125",
 	    "description": "EDITING : Calc doesn't show colored borders on referenced cells when editing formula",
-	    "type": "bugfix",
+	    "type": "feature",
 	    "tdfid": "38304",
 	    "gerritid": "22023",
 	    "status": "pending"
