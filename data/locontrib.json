@@ -498,6 +498,16 @@
 	    "tdfid": "97906",
 	    "gerritid": "22728",
 	    "status": "accepted"
+	},
+
+	{
+	    "date": "20160325",
+	    "description": "Pasting a whole row with data crashes",
+	    "type": "bugfix",
+	    "tdfid": "92963",
+	    "gerritid": "23688",
+	    "status": "accepted"
 	}
+	
     ]
 }
